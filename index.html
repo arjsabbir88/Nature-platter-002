@@ -54,46 +54,22 @@
 <body class="font">
     <header class="max-w-7xl mx-auto bg-gradient-to-b from-[#ffffff] to-[#EFEBE3]">
         <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Product</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Contact us</a></li>
-                    </ul>
-                  </div>
-                  <a class="cursor-pointer"><img src="./c2-assets/logo-header.png" alt=""></a>
+            <div class="flex justify-between mx-5 lg:mx-0 lg:justify-around items-center mt-5">
+                <div>
+                    <img src="./c2-assets/logo-header.png" alt="logo">
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Product</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Contact us</a></li>
-                    </ul>
+                <div class="hidden lg:flex lg:gap-4 text-xl">
+                    <a href="">Product</a>
+                    <a href="">service</a>
+                    <a href="">Contact Us</a>
                 </div>
-                <div class="navbar-end space-x-5">
-                    <a><i><i class="fa-solid fa-magnifying-glass"></i></i></a>
+                <div class="hidden lg:flex lg:gap-4 lg:items-center lg:text-xl">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                    <a class="btn btn-outline btn-success">Login</a>
-                    <a class="btn btn-success">Resister</a>
+                    <button class="btn btn-outline btn-success">Log In</button>
+                    <button class="btn btn-success">Resister</button>
                 </div>
+                <a class="text-2xl lg:hidden" href=""><i class="fa-solid fa-bars"></i></a>
             </div>
         </nav>
 
@@ -178,7 +154,7 @@
                             <button class="btn">Buy Now</button>
                         </div>
                         <div class="">
-                            <img class="relative -right-30 " src="./c2-assets/vegetable-offer.png" alt="">
+                            <img class="relative -right-20 lg:-right-32 " src="./c2-assets/vegetable-offer.png" alt="">
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-6 lg:grid-cols-3">
