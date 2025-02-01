@@ -27,28 +27,19 @@
         font-weight: 400;
         font-style: normal;
         }
-        /* .product-card{
-            position: relative;
-            padding: 40px;
-            border: 1px solid #ccc;
-            border-radius: 15px;
-            margin-right: 20px;
-            background-image: linear-gradient(to bottom right, #179800, #EFEBE3);
+        .for-animation {
+        animation: animation 1.5s ease-out forwards;
         }
-        .card-img img{
-            position: relative;
-            top: 122px;
-            right: -8px;
-        } */
-        /* .input-type{
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            width: 350px;
-            padding: 10px;
-            outline: 1px solid #179800;
-            font-size: 18px;
-
-        } */
+        @keyframes animation {
+            from { 
+                opacity: 0; 
+                transform: translateY(-20px);
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+            }
     </style>
 </head>
 <body class="font">
@@ -85,7 +76,7 @@
                     we’ve got you covered every day!
                 </p>
             </div>
-            <div class="my-5">
+            <div class="my-5 for-animation">
                 <img class="mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
             </div>
         </div>
